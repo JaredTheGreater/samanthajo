@@ -1,0 +1,172 @@
+@font-face {
+	font-family: novecento;
+	src: 
+		url('../fonts/novecento/596643.otf');
+}
+
+@font-face {
+	font-family: novecentoTitle;
+	src:
+		url('../fonts/novecento/596641.otf');
+}
+
+@font-face {
+	font-family: novecentoWide;
+	src:
+		url('../fonts/novecento/596640.otf');
+}
+
+
+body {
+	position: relative;
+	font-family: novecento;
+	background-color:fff;
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;
+}
+
+h1, h2, h3, h4, p, a {
+	margin: 0;
+	padding: 0;
+}
+
+#container {
+	position:fixed;
+	top: 10%;
+	left: 10%;
+	width: 80%;
+	height:80%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#container img {
+	background: center no-repeat;
+	width: 100%;
+	height: 100%;
+  max-width: 2400px;
+	max-height: 1600px;
+	margin: 0;
+	padding: 0;
+	background-size: 100%;
+	z-index: -999;
+}
+
+/** #wrapper {
+	background: url('../img/background.jpg') center no-repeat;
+} **/
+
+#wrapper {
+	position:fixed;
+	top: 10%;
+	left: 10%;
+	width: 80%;
+	height:80%;
+}
+
+#headline {
+	width: 100%;
+	height: 30%;
+	font-family: novecentoTitle;
+	text-align: center;
+	margin: 0;
+	padding: 2em 0 0 0;
+	font-size: 1vw;
+	color: #989898;
+}
+
+#headline p {
+	font-family: novecento;
+}
+
+#headline a {
+	text-decoration: none;
+}
+
+#landsea {
+	color: #009999;
+}
+
+#name {
+	width: 100%;
+	height: 30%;
+	font-family: novecentoWide;
+	color: #989898;
+	margin: 0 auto;
+	font-size: 1vw;
+}
+
+#name p, h3 {
+	width: 25%;
+	margin: 0 auto;
+	padding: 0 0 0 1em;
+	font-family: novecento;
+}
+
+#name h3 {
+	color: #686868;
+}
+
+#social {
+	width: 100%;
+	height: 40%;
+}
+
+#socialBox {
+	width: 25%;
+	max-height: 50%;
+	margin: 0 auto;
+	padding: 2.5em 0 0 1em;
+}
+
+#social a {
+	display: inline-block;
+	font-size: 1vw;
+}
+
+#linkedin {
+	background-image: url('../img/linkin.gif');
+	width: 18px;
+	height: 18px;
+}
+
+#linkedin:hover {
+	background: url('../img/linkin_roll.gif');
+	max-width: 1vw;
+}
+
+#twitter {
+	background-image: url('../img/twitter.gif');
+	width: 18px;
+	height: 18px;
+}
+
+#twitter:hover {
+	background: url('../img/twitter_roll.gif');
+	max-width: 1vw;
+}
+
+#pinterest {
+	background-image: url('../img/pinterest.gif');
+	width: 18px;
+	height: 18px;
+}
+
+#pinterest:hover {
+	background: url('../img/pinterest_roll.gif');
+	max-width: 1vw;
+}
+
+#social p a:link {
+	text-decoration: none;
+	color: #989898;
+	margin: 0;
+}
+
+#social p a:hover {
+	text-decoration: none;
+	color: #686868;
+	margin: 0;
+}

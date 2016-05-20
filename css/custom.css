@@ -1,0 +1,1424 @@
+/*** Positioning ***/
+.fixed {
+	position: fixed;
+}
+
+.absolute {
+	position: absolute;
+}
+
+.relative {
+	position: relative;
+}
+
+.half {
+	width: 50%;
+}
+
+.float-left {
+	float: left;
+}
+
+.clear {
+	clear: both;
+}
+
+.clearR {
+	clear: right;
+}
+
+.clearL {
+	clear: left;
+}
+
+.noMarginLR {
+	margin-left: 0 ! important;
+	margin-right: 0 ! important;
+}
+
+.equalMarginLR {
+	margin: 0 auto;
+}
+.listHorizontal li{
+	display: inline-block;
+}
+
+.inline {
+	display: inline;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+.block {
+	display: block;
+}
+
+.v-align-middle {
+	vertical-align: middle;
+}
+
+.comfyPaddingTB {
+	padding-top: 6rem;
+	padding-bottom: 6rem;
+}
+
+.mb-1rem {
+	margin-bottom: 1rem;
+}
+
+/*** Typography ***/
+.no-wrap {
+	white-space: nowrap;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.font32 {
+	font-size: 3.2rem;
+}
+
+/*** Colors ***/
+.green {
+	color: #D7FE00;
+}
+
+.heroGreenBkg {
+	background: #D7FE00;
+	opacity: 0.8;
+}
+
+.slateGreen {
+	background: #00cccc;
+}
+
+.evilGreyFont {
+	color: #cccccc;
+}
+
+.stripedDarkBKG {
+	background: url(../images/assets/contact_stripe.png) repeat;
+}
+
+.greenSnotBkg {
+	background: #D7FE00;
+}
+
+.shadow {
+  -webkit-box-shadow: 0px 0px 30px 20px rgba(0, 0, 0, 0.5);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    0px 0px 30px 20px rgba(0, 0, 0, 0.5);  /* Firefox 3.5 - 3.6 */
+  box-shadow:         0px 0px 30px 20px rgba(0, 0, 0, 0.5);  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+.opacity7 {
+	opacity: .7;
+}
+
+.opacity5 {
+	opacity: .5;
+}
+
+.hidden {
+	display: none;
+}
+
+.overflowHidden {
+	overflow: hidden;
+}
+
+/*** Navigation ***/
+.port.header {
+	position: static;
+}
+
+.navigation {
+	padding-top: 5rem;
+}
+
+.green.header-1 .navigation > ul > li > a, .header-1 .navigation-show a {
+	color: #333333;
+	opacity: 0.7;
+}
+
+.green.header-1 .navigation > ul > li > a:hover, .header-1 .navigation-show a:hover {
+	opacity: 1;
+}
+
+.green.header-1.header-compact .navigation > ul > li > a, .header-1 .navigation-show a {
+	color: #cccccc;
+}
+
+.header-1 .navigation > ul > li > a {
+	opacity: 1;
+}
+
+#topLogo {
+	background-image: url(../images/assets/samjo_logo_white.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	opacity: 0.7;
+	margin: 1em 0 ! important;
+	padding: 0;
+}
+
+#topHomeLogo {
+	background-image: url(../images/assets/samjo_logo_blk.png);
+	background-size: cover;
+	opacity: 0.7;
+	width: 90px;
+	height: 78px;
+	margin-top: 1.5rem;
+	padding-bottom: 1.5rem;
+}
+
+#topLogo:hover, #topHomeLogo:hover {
+	opacity: 1;
+}
+
+.header-compact #topLogo, .header-compact #topHomeLogo {
+	background-image: url(../images/assets/samjo_logo_white.png);
+	background-size: cover;
+	opacity: 0.7;
+	width: 60px;
+	height: 52px;
+	margin: 1em 0;
+}
+
+.header-compact #topLogo:hover, .header-compact #topHomeLogo:hover {
+	opacity: 1;
+}
+
+.logoShrink {
+	width: 6rem;
+}
+
+#footerNav.stickyLinkPadding {
+	padding-top: 0 ! important;
+}
+
+.stickyLinkPadding {
+	padding-top: 3rem ! important;
+}
+
+.socialIcon {
+	margin: 0 .25em ! important;
+	width: 22px;
+	height: 22px;
+	float: left;
+}
+
+.socialIcon a {
+	width: 22px;
+	height: 22px;
+	margin: 0 ! important;
+}
+
+.twitterIcon {
+	background-image: url(../images/assets/twitter_blk.png);
+	background-size: cover;
+	opacity: 0.7;
+}
+
+.linkedinIcon {
+	background-image: url(../images/assets/linkedin_blk.png);
+	background-size: cover;
+	opacity: 0.7;
+}
+
+.pinterestIcon {
+	background-image: url(../images/assets/pin_blk.png);
+	background-size: cover;
+	opacity: 0.7;
+}
+
+.behanceIcon {
+	background-image: url(../images/assets/be_blk.png);
+	background-size: cover;
+	opacity: 0.7;
+}
+
+.header-compact .twitterIcon, .header-compact .linkedinIcon {
+	background-size: cover;
+	width: 22px;
+	height: 22px;
+}
+
+.header-compact .twitterIcon {
+	background-image: url(../images/assets/twitter_white.png);
+}
+
+.header-compact .linkedinIcon {
+	background-image: url(../images/assets/linkedin_white.png);
+}
+
+.header-compact .pinterestIcon {
+	background-image: url(../images/assets/pin_white.png);
+}
+
+.header-compact .behanceIcon {
+	background-image: url(../images/assets/be_white.png);
+}
+
+.behanceIcon:hover, .pinterestIcon:hover, .linkedinIcon:hover, .twitterIcon:hover, .header-compact .twitterIcon:hover, .header-compact .linkedinIcon:hover, .header-compact .pinterestIcon:hover, .header-compact .behanceIcon:hover {
+	-webkit-transition-duration: 500ms;
+	-moz-transition-duration: 500ms;
+	-o-transition-duration: 500ms;
+	-ms-transition-duration: 500ms;
+	transition-duration: 500ms;
+	-webkit-transition-property: height, background, border, padding, margin, font-size, color, opacity;
+	-moz-transition-property: background, border, padding, margin, font-size, color, opacity;
+	-o-transition-property: background, border, padding, margin, font-size, color, opacity;
+	-ms-transition-property: background, border, padding, margin, font-size, color, opacity;
+	transition-property: color, opacity;
+	-webkit-text-size-adjust: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	opacity: 1;
+}
+
+.nameContact {
+	margin: 0 1em 0 0 ! important;
+}
+
+.twitterIconContact {
+	background-image: url(../images/assets/twitter_blk.png);
+	background-size: cover;
+	opacity: 0.4;
+}
+
+.linkedinIconContact {
+	background-image: url(../images/assets/linkedin_blk.png);
+	background-size: cover;
+	opacity: 0.4;
+}
+
+.pinterestIconContact {
+	background-image: url(../images/assets/pin_blk.png);
+	background-size: cover;
+	opacity: 0.4;
+}
+
+.behanceIconContact {
+	background-image: url(../images/assets/be_blk.png);
+	background-size: cover;
+	opacity: 0.4;
+}
+
+.behanceIconContact:hover, .pinterestIconContact:hover, .linkedinIconContact:hover, .twitterIconContact:hover {
+	-webkit-transition-duration: 500ms;
+	-moz-transition-duration: 500ms;
+	-o-transition-duration: 500ms;
+	-ms-transition-duration: 500ms;
+	transition-duration: 500ms;
+	-webkit-transition-property: height, background, border, padding, margin, font-size, color, opacity;
+	-moz-transition-property: background, border, padding, margin, font-size, color, opacity;
+	-o-transition-property: background, border, padding, margin, font-size, color, opacity;
+	-ms-transition-property: background, border, padding, margin, font-size, color, opacity;
+	transition-property: color, opacity;
+	-webkit-text-size-adjust: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	opacity: 1;
+}
+
+#tmpContent {
+	vertical-align: baseline;
+}
+
+#heroText {
+	height: 100%;
+	margin: 0 auto;
+}
+
+#heroTextH2Container {
+	position: relative;
+	top: 20%;
+} 
+
+#heroText h2{
+	width: 74%;
+	font-size: 7rem;
+	line-height: 8rem;
+	padding: 20% 0;
+	margin: 0 auto;
+}
+
+#heroTextH4{
+	bottom: 5%;
+	left: 0;
+	width: 100%;
+	margin: 0;
+	opacity: 0.8;
+}
+
+/*** Style for "my work" ***/
+.bkg-drkGrey {
+	background: #272727;
+	color: #fff;
+}
+
+.portfolio-filter-menu a.active {
+	color: #D7FE00;
+}
+
+.project-5 .background-image {
+   background-position: center center ! important;
+   background-size: contain ! important;
+}
+
+#project-5-1-bkg {
+	background-image: url(../images/assets/espn/boz_bkgnd.jpg);
+	height: 100vh;
+}
+
+.project-5-1 {
+  background-image: url(../images/assets/espn/boz_mag.png);
+}
+
+#project-5-2-bkg {
+	background-image: url(../images/assets/espn/jamarcus_bkgnd.jpg);
+	height: 100vh;
+}
+
+.project-5-2 {
+  background-image: url(../images/assets/espn/jamarcus_mag.png);
+}
+
+#project-5-3-bkg {
+	background-image: url(../images/assets/espn/matt_bkgnd.jpg);
+	height: 100vh;
+}
+
+.project-5-3 {
+  background-image: url(../images/assets/espn/matt_mag.png);
+}
+
+.topFolioPadding {
+	padding: 15em 0 9em 0 ! important;
+}
+
+.folioParagraph {
+	font-size: 1.1em;
+	line-height: 1.5em;
+}
+
+.folioDetails {
+	line-height: 1.3em;
+}
+
+.folioCredit {
+	display: inline;
+	line-height: 1.1em;
+	color: #cccccc;
+	padding: 1em;
+	margin: 0;
+}
+
+.folioCredit p {
+	padding: 0;
+	margin: 0;
+}
+
+/* #portfolioGrid {
+	padding-bottom: 13em;
+} */
+
+.portfolio-7 {
+	max-height: 27em;
+}
+
+.portfolio-7 div {
+	max-height: inherit;
+}
+
+#portfolioSlider {
+	max-height: inherit;
+}
+
+#portfolio-recent-slider-1 {
+	max-height: inherit;
+}
+
+ul.tms-slides li {
+	height: inherit;
+	max-height: inherit;
+}
+
+.thumbnail {
+	max-height: inherit;
+}
+
+.overlay-link {
+	height: inherit;
+	max-height: inherit;
+}
+
+/*** Style for blog ***/
+.bkg-grey-ultralight {
+	background: #fff;
+}
+
+/*** About ***/
+#about {
+	text-align: right;
+}
+
+.bkg-about {
+	background: #272727;
+}
+
+.bkg-greenish {
+	background: #99CC33;
+}
+
+.aboutColor {
+	color: #232323 ! important;
+}
+
+#aboutTitle {
+	position: absolute;
+	top: 1rem;
+	right: 10rem;
+}
+
+#afewthings {
+	font-size: 3.2rem;
+}
+
+.aboutMeP {
+	clear: both;
+	margin: 0 0 2rem 0;
+	line-height: 2rem;
+}
+
+.samIcon img {
+	height: 3.5rem;
+	width: 6.5rem;
+}
+
+.samIcon p {
+	font-size: 1.2rem;
+	margin: auto;
+}
+
+.progress-bar {
+	margin-bottom: 1rem ! important;
+	border: none;
+}
+
+.progress-bar.small {
+	height: .5rem;
+}
+
+.progress-bar-label {
+	margin-bottom: 2rem;
+}
+
+.bar {
+	border-color: #272727;
+}
+
+#aboutBottom {
+	position: relative;
+	bottom:-5rem;
+}
+
+#thereMo p {
+	font-size: 1.1em;
+	line-height: 1.8rem;
+	margin: 1rem 0 0 0;
+	padding: 0.8rem 0 0.8rem 1.5rem;
+}
+
+.tabs .tab-nav > li.active a, .tabs .tab-nav > li.active a:hover, .tabs .tab-nav > li a, .tabs .tab-nav > li a:hover {
+	font-size: 1.1rem;
+	background-color: transparent;
+	border: none;
+	margin-right: 0;
+}
+
+#aboutTabs a {
+	padding: 1rem 0.5rem 0 0.5rem;
+	font-weight: 700;
+	color: #99CC33;
+	display: block;
+	position: relative;
+}
+
+#aboutTabs a:hover{
+	color: #232323;
+}
+
+#aboutTabs li.active a{
+	color: #232323;
+}
+
+.horizon { 
+	opacity:0; 
+}
+
+.hero-5-about-2 > .row::after {
+	background: url(../images/assets/aboutme.jpg) no-repeat;
+	background-size: cover;
+	background-color: #272727;
+}
+
+#lets {
+	padding: 11rem 0;
+	color: #D7FE00;
+	font-size: 4rem;
+	font-family: "freight-big-pro",sans-serif;
+	text-align: right;
+}
+
+#lets p {
+	margin: 0 5rem 0 0;
+}
+
+/*** #contact ***/
+#contact {
+	height: 55em;
+}
+
+.contactSocialIcon img {
+	height: 3rem;
+}
+
+
+
+#prevNext {
+	padding-top: 1%;
+}
+/*** footer ***/
+#footerNav {
+	padding-top:0;
+}
+
+.footer .navigation li:last-child a {
+	color: #555;
+}
+
+.footer .navigation li:last-child a:hover {
+	color: #fff;
+}
+
+/*** Folio Pages ***/
+.introLogo {
+	position: absolute;
+	margin-left: 50%;
+	bottom: 10%;
+}
+
+.introLogo img {
+	width: 225px;
+	margin-left: -50%;
+}
+
+.introImageRight img {
+	max-height: 27em;
+	float: left;
+}
+
+.introImageLeft img {
+	max-height: 27em;
+}
+
+/*** ESPN ***/
+#awardStar {
+	font-size: 0.95em;
+	color: #D7FE00;
+}
+
+/*** Motigo ***/
+
+/*** Peach Truck ***/
+
+.peachCopy {
+	text-align: left;
+	margin: 5em 0;
+	padding: 0;
+}
+
+.peachCopy p {
+	padding: 1em 0;
+	margin: 0;
+}
+
+/*** Southwest ***/
+.swBarLineH {
+	margin: 0 0 0.25em 0;
+}
+
+#topAirport{
+	height: 135em;
+}
+
+#topAirport1 {
+	height: 55em;
+}
+
+#topAirport2 {
+	height: 55em;
+}
+
+#topAirport3 {
+	height: 87.5em;
+}
+
+#topAirport1 img {
+	height: 100%;
+	width: 100%;
+}
+
+#topAirport2 img {
+	height: 100%;
+	width: 100%;
+}
+
+#topAirport3 img {
+	height: 100%;
+	width: 100%;
+}
+
+/*** Dish ***/
+#dishParallax {
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	top:0;
+	left:0;
+	background: url(../images/assets/dish/dish_bkgnd.jpg) no-repeat center;
+	z-index: -1;
+}
+
+.content.dish {
+	background-color: transparent;
+}
+
+#dishSiteImg {
+	padding: 5% 0 7% 0;
+}
+
+#dishsite {
+	max-width: 85%;
+	margin: auto 0;
+}
+
+/*** MandM ***/
+#mandmLogo{
+	text-align: center;
+	position: relative;
+	top:5em;
+	left:0;
+	margin: 0 auto;
+}
+
+#mandmLogo img {
+	margin: 0 auto;
+	width: 75%;
+}
+
+#mandmTopFolio {
+	top: 0;
+	left: 0;
+	margin: auto;
+	padding: 11em 0 6em 0;
+}
+
+#mAndMslider {
+	margin: 0 auto;
+}
+
+/*------------------------------------------------------------------
+[Media Queries]
+*/
+
+@media only screen and (max-width: 1140px){
+	#heroText h2{
+		width: 74%;
+		font-size: 6rem;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.hiddenIfNoMobile {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 1700px){
+	#topAirport{
+		height: 115em;
+	}
+
+	#topAirport1 {
+		height: 45em;
+	}
+
+	#topAirport2 {
+		height: 45em;
+	}
+
+	#topAirport3 {
+		height: 70em;
+	}
+
+	#topAirport1 img {
+		height: 100%;
+		width: 100%;
+	}
+
+	#topAirport2 img {
+		height: 100%;
+		width: 100%;
+	}
+
+	#topAirport3 img {
+		height: 100%;
+		width: 100%;
+	}	
+
+}
+
+@media only screen and (max-width: 1500px){
+	#topAirport{
+		height: 95em;
+	}
+
+	#topAirport1 {
+		height: 35em;
+	}
+
+	#topAirport2 {
+		height: 35em;
+	}
+
+	#topAirport3 {
+		height: 60em;
+	}
+
+	#topAirport1 img {
+		height: 100%;
+		width: 100%;
+	}
+
+	#topAirport2 img {
+		height: 100%;
+		width: 100%;
+	}
+
+	#topAirport3 img {
+		height: 100%;
+		width: 100%;
+	}	
+
+}
+
+@media only screen and (max-width: 1023px){
+	#heroText h2{
+		width: 74%;
+		font-size: 5.4rem;
+	}
+	
+	#topAirport{
+		height: 75em;
+	}
+
+	#topAirport1 {
+		height: 25em;
+	}
+
+	#topAirport2 {
+		height: 25em;
+	}
+
+	#topAirport3 {
+		height: 50em;
+	}
+
+	#topAirport1 img {
+		height: 100%;
+		width: 100%;
+	}
+
+	#topAirport2 img {
+		height: 100%;
+		width: 100%;
+	}
+
+	#topAirport3 img {
+		height: 100%;
+		width: 100%;
+	}	
+
+}
+
+@media only screen and (max-width: 960px) {
+	#homePage.header {
+		position: absolute ! important;
+	}
+	
+	#topHomeLogo {
+		height: auto;
+		background-image: url(../images/assets/samjo_logo_white.png);
+		background-repeat: no-repeat;
+		background-size: contain;
+		opacity: 0.7;
+		vertical-align: middle;
+		height: 75%;
+		margin: 1em 0 ! important;
+		padding: 0;
+	}
+	
+	#heroText h2{
+		width: 74%;
+		font-size: 5rem;
+		line-height: 8rem;
+	}
+	
+	#heroTextH4{
+		width: 100%;
+		margin: 0 auto;
+		opacity: 0.8;
+	}
+	
+	#topAirport{
+		height: 75em;
+	}
+
+	#topAirport1 {
+		height: 25em;
+	}
+
+	#topAirport2 {
+		height: 25em;
+	}
+
+	#topAirport3 {
+		height: 50em;
+	}
+
+	#topAirport1 img {
+		height: 100%;
+		width: 100%;
+	}
+
+	#topAirport2 img {
+		height: 100%;
+		width: 100%;
+	}
+
+	#topAirport3 img {
+		height: 100%;
+		width: 100%;
+	}	
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 960px) {
+	
+	#topHomeLogo {
+		height: auto;
+		background-image: url(../images/assets/samjo_logo_white.png);
+		background-repeat: no-repeat;
+		background-size: contain;
+		vertical-align: middle;
+		height: 60%;
+		margin: 1em 0 ! important;
+		padding: 0;
+	}
+	
+	#heroText h2{
+		width: 74%;
+		font-size: 4.5rem;
+		line-height: 8rem;
+	}
+	
+	#heroTextH4{
+		width: 100%;
+		margin: 0 auto;
+		opacity: 0.8;
+	}
+	
+	.font25 {
+		font-size: 2.5rem;
+	}
+	
+	#topAirport{
+		height: 75em;
+	}
+
+	#topAirport1 {
+		height: 25em;
+	}
+
+	#topAirport2 {
+		height: 25em;
+	}
+
+	#topAirport3 {
+		height: 50em;
+	}
+
+	#topAirport1 img {
+		height: 100%;
+		width: 100%;
+	}
+
+	#topAirport2 img {
+		height: 100%;
+		width: 100%;
+	}
+
+	#topAirport3 img {
+		height: 100%;
+		width: 100%;
+	}	
+	
+}
+
+@media only screen and (max-width: 768px) {
+	.project-5 .background-image {
+		 background-position: center center ! important;
+		 background-size: contain ! important;
+	}
+	
+	#espnPara div {
+		height: 100vh ! important;
+	}
+
+	.mb-90-mobile {
+		margin-bottom: 9rem;
+	}
+	
+	.hideOnMobile {
+		display: none;
+	}
+	
+	.showOnMobile {
+		display: block !important;
+		visibility: visible !important;
+	}
+	
+	#topHomeLogo {
+		height: auto;
+		background-image: url(../images/assets/samjo_logo_white.png);
+		background-repeat: no-repeat;
+		background-size: contain;
+		vertical-align: middle;
+		height: 60%;
+		margin: 1em 0 ! important;
+		padding: 0;
+	}
+	
+	#heroText {
+		width: 74% ! important;
+	}
+
+	#heroText h2{
+		width: 74%;
+		font-size: 4.1rem;
+		line-height: 6rem;
+	}
+	
+	#heroTextH4{
+		width: 100%;
+		margin: 0 auto;
+		opacity: 0.8;
+	}
+	
+	.grid-item.samIcon {
+		width: 50% ! important;
+	}
+	
+	#thereMo, #aboutTabs {
+		width: 50% ! important;
+	}
+	
+	.hero-5 > .row:after {
+    min-height: 0rem;
+	}
+	
+	#topAirport{
+		height: 75em;
+	}
+
+	#topAirport1 {
+		height: 25em;
+	}
+
+	#topAirport2 {
+		height: 25em;
+	}
+
+	#topAirport3 {
+		height: 50em;
+	}
+
+	#topAirport1 img {
+		height: 100%;
+		width: 100%;
+	}
+
+	#topAirport2 img {
+		height: 100%;
+		width: 100%;
+	}
+
+	#topAirport3 img {
+		height: 100%;
+		width: 100%;
+	}	
+		
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+  /* For portrait layouts only */
+	
+	#homePage.header {
+		position: absolute ! important;
+	}
+	
+	#topHomeLogo {
+		height: auto;
+		background-image: url(../images/assets/samjo_logo_white.png);
+		background-repeat: no-repeat;
+		background-size: contain;
+		vertical-align: middle;
+		height: 60%;
+		margin: 1em 0 ! important;
+		padding: 0;
+	}
+	
+	#heroTextH2Container {
+		position: relative;
+		width: 84%;
+		margin: 0 auto;
+		top: 20%;
+	}
+	
+	#heroText h2{
+		width: 74%;
+		font-size: 6rem;
+		line-height: 8rem;
+	}
+	
+	#heroTextH4{
+		width: 100%;
+		margin: 0 auto;
+		opacity: 0.8;
+	}
+	
+	#topAirport{
+		height: 75em;
+	}
+
+	#topAirport1 {
+		height: 25em;
+	}
+
+	#topAirport2 {
+		height: 25em;
+	}
+
+	#topAirport3 {
+		height: 50em;
+	}
+
+	#topAirport1 img {
+		height: 100%;
+		width: 100%;
+	}
+
+	#topAirport2 img {
+		height: 100%;
+		width: 100%;
+	}
+
+	#topAirport3 img {
+		height: 100%;
+		width: 100%;
+	}	
+	
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+  /* For landscape layouts only */
+	#homePage.header {
+		position: absolute ! important;
+	}
+	
+	/* Home Page */
+	#topHomeLogo {
+		height: auto;
+		background-image: url(../images/assets/samjo_logo_white.png);
+		background-repeat: no-repeat;
+		background-size: contain;
+		vertical-align: middle;
+		height: 60%;
+		margin: 1em 0 ! important;
+		padding: 0;
+	}
+	
+	.topFullScreen {
+		margin-top: -81px;
+	}
+	
+	#topFolio {
+		padding: 9em 0 3em 0;
+	}
+	
+	.introLogo {
+		position: absolute;
+		margin-left: 50%;
+		bottom: 0;
+	}
+
+	.introLogo img {
+		width: 168.75px;
+		margin-left: -50%;
+		padding-bottom: 5%;
+	}
+	
+	.peachIntroLogo img {
+		width: 168.75px;
+		margin-left: -50%;
+		padding-bottom: 20%;
+	}
+	
+	#heroTextH2Container {
+		position: relative;
+		top: 15%;
+	}
+	
+	#heroText h2{
+		width: 74%;
+		font-size: 6rem;
+		line-height: 8rem;
+	}
+	
+	#heroTextH4{
+		width: 100%;
+		margin: 0 auto;
+		opacity: 0.8;
+	}
+	
+	#topAirport{
+		height: 77em;
+	}
+
+	#topAirport1 {
+		height: 27em;
+	}
+
+	#topAirport2 {
+		height: 27em;
+	}
+
+	#topAirport3 {
+		height: 50em;
+	}
+
+	#topAirport1 img {
+		height: 100%;
+		width: 100%;
+	}
+
+	#topAirport2 img {
+		height: 100%;
+		width: 100%;
+	}
+
+	#topAirport3 img {
+		height: 100%;
+		width: 100%;
+	}	
+	
+}
+
+@media only screen and (max-width: 600px) {
+	
+	#topHomeLogo {
+		height: auto;
+		background-image: url(../images/assets/samjo_logo_white.png);
+		background-repeat: no-repeat;
+		background-size: contain;
+		vertical-align: middle;
+		height: 60%;
+		margin: 1em 0 ! important;
+		padding: 0;
+	}
+		
+	#heroText h2{
+		width: 74%;
+		font-size: 3.5rem;
+		line-height: 5.5rem;
+	}
+	
+	#heroTextH4{
+		width: 100%;
+		margin: 0 auto;
+		opacity: 0.8;
+	}
+	
+	#topAirportm {
+		height: 54em;
+	}
+
+	#topAirport1m img {
+		height: 18em;
+	}
+
+	#topAirport2m img {
+		height: 18em;
+	}
+
+	#topAirport3m img {
+		height: 18em;
+	}
+	
+}
+
+@media only screen and (max-width: 480px) {
+	.folioCredit p {
+		font-size: 1.2rem;
+	}
+	
+	#topHomeLogo {
+		height: auto;
+		background-image: url(../images/assets/samjo_logo_white.png);
+		background-repeat: no-repeat;
+		background-size: contain;
+		vertical-align: middle;
+		height: 60%;
+		margin: 1em 0 ! important;
+		padding: 0;
+	}
+		
+	#heroText h2{
+		width: 74%;
+		font-size: 3rem;
+		line-height: 4rem;
+		padding: 10% 0;
+	}
+	
+	#heroTextH4{
+		width: 100%;
+		margin: 0 auto;
+		opacity: 0.8;
+	}
+	
+	.grid-item.samIcon {
+		width: 50% ! important;
+	}
+	
+	#topAirportm {
+		height: 60em;
+	}
+
+	#topAirport1m {
+		height: 20em;
+	}
+
+	#topAirport2m {
+		height: 20em;
+	}
+
+	#topAirport3m {
+		height: 20em;
+	}
+	
+	#topAirport1m img {
+		height: 100%;
+		width: 100%;
+	}
+
+	#topAirport2m img {
+		height: 100%;
+		width: 100%;
+	}
+
+	#topAirport3m img {
+		height: 100%;
+		width: 100%;
+	}
+
+	
+}
+
+@media only screen and (max-width : 350px) {
+	.folioCredit p {
+		font-size: 1.2rem;
+	}
+	
+	#topHomeLogo {
+		height: auto;
+		background-image: url(../images/assets/samjo_logo_white.png);
+		background-repeat: no-repeat;
+		background-size: contain;
+		vertical-align: middle;
+		height: 60%;
+		margin: 1em 0 ! important;
+		padding: 0;
+	}
+		
+	#heroText h2{
+		font-size: 3rem;
+		line-height: 4rem;
+		padding: 10% 0;
+	}
+	
+	#heroTextH4{
+		width: 100%;
+		margin: 0 auto;
+		opacity: 0.8;
+	}
+	
+	.grid-item.samIcon {
+		width: 100% ! important;
+	}
+	
+	.tab-panes > div *:last-child{
+		margin-bottom: 3rem;
+	}
+
+	
+	#topAirportm {
+		height: 54em;
+	}
+
+	#topAirport1m {
+		height: 18em;
+	}
+
+	#topAirport2m {
+		height: 18em;
+	}
+
+	#topAirport3m {
+		height: 18em;
+	}
+	
+	#topAirport1m img {
+		height: 100%;
+		width: 100%;
+	}
+
+	#topAirport2m img {
+		height: 100%;
+		width: 100%;
+	}
+
+	#topAirport3m img {
+		height: 100%;
+		width: 100%;
+	}
+	
+}
